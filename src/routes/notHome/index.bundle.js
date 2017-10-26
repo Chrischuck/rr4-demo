@@ -23,7 +23,7 @@ class NotHome extends React.Component {
         </button>
         <div style={{margin: '15px'}}>
           <a href='/'>
-            Home
+          See route w/o async reducers!
           </a>
         </div>
       </div>
