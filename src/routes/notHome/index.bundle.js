@@ -23,7 +23,7 @@ class NotHome extends React.Component {
         </button>
         <div>
           <a href='/'>
-            Not Home
+            Home
           </a>
         </div>
       </div>
