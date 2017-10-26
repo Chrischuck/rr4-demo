@@ -3,7 +3,7 @@ const initialState = {
 }
 
 export default function reducer(state = initialState, action) {
-  const { type } = action;
+  const { type, payload } = action;
 
   switch (type) {
     case 'INCREMENT_UP':
