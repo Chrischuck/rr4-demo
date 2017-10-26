@@ -21,7 +21,7 @@ class NotHome extends React.Component {
         <button onClick={decrementFib}>
           Decrease Fibonacci
         </button>
-        <div>
+        <div style={{margin: '15px'}}>
           <a href='/'>
             Home
           </a>

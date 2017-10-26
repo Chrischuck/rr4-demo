@@ -22,7 +22,7 @@ class Home extends React.Component {
           Decrease Counter
         </button>
         <div>
-          <a href='/notHome'>
+          <a href='/notHome' style={{margin: '15px'}}>
             Not Home
           </a>
         </div>
