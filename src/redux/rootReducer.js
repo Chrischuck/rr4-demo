@@ -6,9 +6,9 @@ export default function reducer(state = initialState, action) {
   const { type } = action;
 
   switch (type) {
-    case 'INCREMENT_UP':
+    case 'INCREMENT':
       return { ...state, count: state.count + 1 }
-     case 'INCREMENT_DOWN':
+     case 'DECREMENT':
       return { ...state, count: state.count - 1 }
     default:
       return state;

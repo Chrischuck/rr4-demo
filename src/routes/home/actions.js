@@ -1,3 +1,3 @@
-export const incrementCounter = () => ({ type: 'INCREMENT_UP' })
-export const decrementCounter = () => ({ type: 'INCREMENT_DOWN' })
+export const incrementCounter = () => ({ type: 'INCREMENT' })
+export const decrementCounter = () => ({ type: 'DECREMENT' })
 
